@@ -1,0 +1,565 @@
+*{
+	margin:0;
+	padding:0;
+}
+#headtop{
+	background:url("img/1.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	overflow: hidden;
+	height: 873px;
+	position: relative;
+}
+.headleft {
+    width: 224px;
+    float: left;
+}
+
+.headleft h1 {
+    font-size: 42px;
+    padding: 15px 20px;
+    color: white;
+}
+
+.headright {
+    width: 620px;
+    float: right;
+}
+
+.headright ul {
+    list-style: none;
+}
+
+.headright ul li {
+    float: left;
+    padding: 25px 15px;
+    position:relative;
+    transition: 0.5s;
+}
+.headright ul li a {
+    text-decoration: none;
+    font-size: 19px;
+    color: white;
+}
+
+.headright button {
+    margin: 25px 15px;
+    border: none;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background: none;
+    color: white;
+    padding: 10px 16px;
+    border: 1px solid;
+}
+
+.headright button a {
+    font-size: 17px;
+    text-decoration: none;
+}
+li#homebor a {
+    border-bottom: 1px solid white;
+}
+.headright ul li ul {
+	list-style:none;
+	position:absolute;
+	left:-99999px;
+	background: white;
+	width: 185px;
+	padding: 25px 0px;
+	border-radius: 5px;
+}
+.headright ul li ul li {
+	float:none;
+	padding: 5px 20px;
+}
+.headright ul li:hover ul {
+	left:0;
+}
+.headright ul li  ul li a {
+    font-size: 17px;
+    color: black;
+}
+.headright ul li a:hover {
+    color: #ddd;
+    border-bottom: 1px solid white;
+}
+.headright i {
+    padding-left: 5px;
+}
+.headline {
+    bottom: 211px;
+    position: absolute;
+    padding-left: 30px;
+}
+
+.headline h3 {
+    color: white;
+    padding-top: 90px;
+    font-weight: normal;
+}
+
+.headline i {
+    color: yellow;
+    font-size: 16px;
+	padding-right: 4px;
+}
+.headline a {
+    padding-left: 35px;
+}
+
+.headline h6 {
+    color: white;
+    letter-spacing: 5px;
+    font-size: 16px;
+    font-weight: normal;
+    padding-bottom: 15px;
+}
+
+.headline h1 {
+    width: 390px;
+    font-size: 50px;
+    color: white;
+    line-height: 70px;
+}
+.container{
+	width:1140px;
+	padding:0px 10px;
+	margin:0 auto;
+}
+section#mainsec {
+    margin-top: 200px;
+}
+
+.wrapmain {
+    overflow: hidden;
+}
+
+.p1 p {
+    font-size: 19px;
+    line-height: 1.9;
+    color: #777;
+    letter-spacing: 1px;
+    padding-bottom: 30px;
+}
+.p2 p {
+	font-size: 19px;
+    line-height: 1.9;
+    color: #777;
+    letter-spacing: 1px;
+    padding-bottom: 30px;
+}
+.p3 p {
+	font-size: 19px;
+    line-height: 1.9;
+    color: #777;
+    letter-spacing: 1px;
+    padding-bottom: 30px;
+}
+.head h1 {
+    font-size: 30px;
+    letter-spacing: 1px;
+    padding-bottom: 30px;
+    color: #333;
+    transition: 0.3s;
+}
+
+.head h1:hover {
+    color: #0056B3;
+}
+.p4 p {
+	font-size: 19px;
+    line-height: 1.9;
+    color: #777;
+    letter-spacing: 1px;
+    padding-bottom: 30px;
+}
+.p5 p {
+	font-size: 19px;
+    line-height: 1.9;
+    color: #777;
+    letter-spacing: 1px;
+    padding-bottom: 30px;
+}
+.greater {
+    position: absolute;
+    right: 0;
+    bottom: 440px;
+    padding-right: 100px;
+}
+
+.greater a {
+    color: white;
+    transition: 0.5s;
+}
+
+.greater a:hover {
+    color: black;
+}
+.uniqwrap {
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.uniqleft {
+    width: 550px;
+    float: left;
+}
+
+.uniqleft img {
+    width: 100%;
+}
+
+.uniqright {
+    width: 550px;
+    float: right;
+}
+
+.uniqright h1 {
+    font-size: 40px;
+    width: 450px;
+    padding-bottom: 25px;
+}
+
+.uniqright p {
+    line-height: 26px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    color: #777;
+    padding-bottom: 20px;
+    padding-right: 64px;
+}
+.columnwrap {
+    overflow: hidden;
+}
+
+.topcolumn p {
+    line-height: 26px;
+    font-size: 18px;
+    padding-bottom: 16px;
+    color: #77777B;
+    letter-spacing: 1px;
+}
+
+.topcolumn {
+    padding-top: 30px;
+}
+
+.topcolumn h1 {
+    font-size: 32px;
+    padding-bottom: 20px;
+}
+
+.bottomleft {
+    width: 550px;
+    float: left;
+}
+
+.bottomright {
+    width: 550px;
+    float: right;
+}
+
+.bottomright p {
+    width: 100%;
+    font-size: 18px;
+    line-height: 26px;
+    color: #777777;
+    letter-spacing: 1px;
+}
+
+.bottomleft p {
+    width: 100%;
+    color: #77777B;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 26px;
+}
+
+.botmai p {
+    font-size: 17px;
+    line-height: 26px;
+    color: #77777F;
+    letter-spacing: 1px;
+}
+.bottomorginal p {
+    font-size: 17px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color: #777777;
+    background: #03C2CE;
+    margin-top: 20px;
+    color: white;
+    padding: 50px 177px;
+}
+.bottomcolumn {
+    overflow: hidden;
+}
+
+
+.botmai {
+    margin: 20px 0px;
+}
+.bottomorginal a {
+    font-size: 25px;
+    color: white;
+}
+
+.bottomorginal a:first-child {
+    padding-right: 5px;
+}
+.nemowrap {
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+.firstnemo h2 {
+    font-size: 32px;
+    font-weight: normal;
+    padding-bottom: 30px;
+}
+
+.firstnemo p {
+    font-size: 17px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color: #77777B;
+    padding-bottom: 20px;
+}
+
+.firstnemo {
+    padding: 0px 41px;
+}
+.secondnemo {
+    padding: 0px 39px;
+    padding-right: 90px;
+}
+.secondnemo h2 {
+    font-size: 32px;
+    font-weight: normal;
+    padding-bottom: 30px;
+}
+
+.secondnemo p {
+    font-size: 17px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color: #77777B;
+    padding-bottom: 20px;
+}
+
+.imgaide img {
+    padding: 0px 41px;
+}
+section#ourpeople {
+    background-color: #F8F9FA;
+    margin-top: 100px;
+}
+
+.peoplewrap {
+    overflow: hidden;
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+
+.peopledetails {
+    text-align: center;
+}
+
+.peopledetails h2 {
+    font-size: 39px;
+    font-weight: normal;
+    padding-bottom: 80px;
+}
+
+.peoplepicture {
+    overflow: hidden;
+}
+
+.singlepeople {
+    width: 350px;
+    float: left;
+    margin-right: 40px;
+}
+
+.singlepeople:last-child {
+    margin-right: 0px;
+}
+
+.singlecontent {
+    width: 100%;
+}
+
+.singlecontent p {
+    font-size: 17px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color: #77777B;
+    padding-bottom: 45px;
+}
+
+.singleimag {
+    overflow: hidden;
+}
+
+.singleleft {
+    width: 95px;
+    float: left;
+}
+
+.singleleft img {
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+}
+.singleright {
+    margin-top: 13px;
+}
+
+.singleright h2 {
+    font-size: 23px;
+    font-weight: normal;
+    padding-bottom: 7px;
+}
+
+.singleright h6 {
+    font-size: 17px;
+    font-weight: normal;
+    color: #777;
+}
+section#alsolike {
+    background-color: #719CFE;
+}
+
+.alsowrap {
+    overflow: hidden;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+.alsocontent h2 {
+    color: white;
+    padding-bottom: 80px;
+    font-size: 44px;
+    font-weight: normal;
+}
+
+.alsopicwrap {
+    overflow: hidden;
+}
+
+.singleconimg {
+    width: 360px;
+    float: left;
+    margin-right: 25px;
+}
+
+.singleconimg:last-child {
+    margin-right: 0px;
+}
+
+.topimg1 img {
+    width: 100%;
+}
+.topimg1 {
+    background: white;
+}
+
+.topimg1 h6 {
+    padding: 13px 15px;
+    font-weight: normal;
+    font-size: 15px;
+    color: #777;
+	word-spacing:7px;
+}
+
+.topimg1 h1 {
+    padding-bottom: 15px;
+    padding-left: 15px;
+    font-weight: normal;
+}
+
+.topimg1 p {
+    line-height: 27px;
+    letter-spacing: 1px;
+    font-size: 17px;
+    color: #777;
+    padding-left: 15px;
+    padding-bottom: 20px;
+}
+
+
+
+.footleft {
+    width: 200px;
+    float: left;
+    padding-top: 40px;
+    padding-left: 25px;
+    padding-bottom: 30px;
+}
+
+.footright {
+    float: right;
+    padding-top: 40px;
+    width: 664px;
+    margin-right: -60px;
+}
+
+.footleft h1 {
+    color: red;
+    font-weight: normal;
+    font-size: 38px;
+    text-shadow: 2px 4px 0px #f3eded;
+}
+
+.footleft h6 {
+    width: 493px;
+    padding-top: 60px;
+    font-size: 17px;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+.footleft span {
+    font-weight: 800;
+}
+
+.foottop ul {
+    list-style: none;
+}
+
+.foottop ul li {
+    float: left;
+    padding: 0px 17px;
+}
+
+.foottop ul li a {text-decoration: none;color: black;font-weight: normal;font-size: 18px;}
+
+.footright bottom {
+}
+
+.foottop button {
+    background: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-top: -7px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.foottop button:hover {
+    cursor: pointer;
+}
+
+.footleft h1:hover {
+    cursor: pointer;
+}
+
+.footbottom a {color: #F10900;padding-right: 15px;display: block;float: left;}
+
+.footbottom {
+    padding-top: 60px;
+    overflow: hidden;
+    width: 200px;
+    padding-left: 443px;
+}
